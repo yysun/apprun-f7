@@ -36,6 +36,6 @@ const App = ({ name, title, Nav, Page }) => <>
 const f7app = f7("#my-app", "My App", "com.mycomp.myapp");
 app.render(
   document.getElementById('my-app'),
-  // <App name="home" title="My App" Nav={Nav} Page={MainPage} />
-  <App name="login" title="My App" Nav={null} Page={LoginPage}/>
+  <App name="home" title="My App" Nav={Nav} Page={MainPage} />
+  // <App name="login" title="My App" Nav={null} Page={LoginPage}/>
 );
