@@ -16,6 +16,9 @@ module.exports = {
       { test: /\.js$/, use: ["source-map-loader"], enforce: "pre" }
     ]
   },
+  externals: {
+    Framework7: 'framework7'
+  },
   devServer: {
     open: true
   },
