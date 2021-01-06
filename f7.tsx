@@ -23,7 +23,7 @@ export const Page = ({ name }, children) => (
 );
 
 export const LeftPanel = ({ title }, children) => (
-  <div class="panel panel-left panel-reveal panel-resizable panel-init panel-in">
+  <div class="panel panel-left panel-reveal panel-resizable panel-init">
     <div class="view view-left">
       <div class="page">
         <div class="navbar">
